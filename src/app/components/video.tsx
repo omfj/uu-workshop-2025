@@ -6,6 +6,7 @@ export default function Video() {
         src="videoMedUndertekster.mov"
         controls
         className={"mx-auto"}
+        title="Never gonna give you up - with captions"
       >
         <track default kind="captions" srcLang="en" src="/video-captions-vtt" />
         {/* hint hint: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/track */}
