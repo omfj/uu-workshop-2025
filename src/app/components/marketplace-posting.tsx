@@ -21,7 +21,7 @@ const MarketplacePosting: React.FC<TMarketplacePosting> = ({
       <p className="text-gray-600 mb-2">{description}</p>
 
       <div className="flex justify-between items-center">
-        <span className="font-bold text-base text-gray-400">{price}</span>
+        <span className="font-bold text-base text-gray-400">{price} USD</span>
         <span className="text-gray-400 text-sm">{date.toLocaleString()}</span>
       </div>
     </li>
