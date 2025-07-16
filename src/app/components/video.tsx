@@ -8,7 +8,7 @@ export default function Video() {
         className={"mx-auto"}
         title="Never gonna give you up - with captions"
       >
-        <track default kind="captions" srcLang="en" src="/video-captions-vtt" />
+        {/* <track default kind="captions" srcLang="en" src="/video-captions-vtt" /> */}
         {/* hint hint: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/track */}
         Your browser does not support the video tag.
       </video>
