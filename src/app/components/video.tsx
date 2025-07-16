@@ -1,6 +1,6 @@
 export default function Video() {
   return (
-    <div>
+    <section>
       <video
         width="600"
         src="videoMedUndertekster.mov"
@@ -12,6 +12,6 @@ export default function Video() {
         {/* hint hint: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/track */}
         Your browser does not support the video tag.
       </video>
-    </div>
+    </section>
   );
 }

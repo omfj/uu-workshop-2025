@@ -24,7 +24,7 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <div
+    <section
       id="faq"
       className="max-w-2xl mx-auto my-12 p-6 bg-white rounded-lg shadow"
     >
@@ -38,6 +38,6 @@ export default function FAQ() {
           </li>
         ))}
       </ul>
-    </div>
+    </section>
   );
 }
